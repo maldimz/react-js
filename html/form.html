@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Kontrak</title>
+</head>
+<body>
+    <h1>Form Kontrak</h1>
+    <h2>Silakan isi form dibawah</h2>
+
+    <form action="#" method="post">
+        <label for="first_name">First Name:</label> <br>
+        <input type="text" id="first_name"> <br><br>
+
+        <label for="last_name">Last Name:</label> <br>
+        <input type="text" id="last_name"> <br><br>
+
+        <label>Gender:</label> <br>
+        <input type="radio" name="gender" id="male"> <label for="male">Male</label>
+        <input type="radio" name="gender" id="female"> <label for="female">Female</label>
+        <input type="radio" name="gender" id="other"> <label for="other">Other</label>
+        <br><br>
+
+        <label>Kebutuhan</label>
+        <select name="need">
+            <option value="react_js">React Js</option>
+            <option value="node_js" disabled>Node Js</option>
+            <option value="flutter" selected>Flutter</option>
+            <option value="kotlin">Kotlin</option>
+        </select>
+
+        <label>Language</label>
+        <input type="checkbox" name="language" id="id"><label for="id">Bahasa</label>
+        <input type="checkbox" name="languane" id="en"><label for="en">English</label>
+        <br><br>
+
+        <label for="desc">Deskripsi</label><br>
+        <textarea name="desc" id="desc" cols="30" rows="10"></textarea>
+        <br><br>
+        
+        <button type="submit">Submit</button>
+    </form>
+    
+
+</body>
+</html>
